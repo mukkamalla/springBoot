@@ -1,6 +1,6 @@
-com\poc\model\Ticket.class
-com\poc\config\SwaggerConfig.class
-com\poc\ApsrtcApplication.class
-com\poc\controller\ApsrtcController.class
-com\poc\repository\ApsrtcRepository.class
-com\poc\service\ApsrtcService.class
+com/poc/config/SwaggerConfig.class
+com/poc/repository/ApsrtcRepository.class
+com/poc/controller/ApsrtcController.class
+com/poc/service/ApsrtcService.class
+com/poc/model/Ticket.class
+com/poc/ApsrtcApplication.class

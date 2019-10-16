@@ -16,12 +16,12 @@ public class ApsrtcService {
 		return repo.save(ticket);
 	}
 
-	public Ticket getTicketByid(Long id) {
+	public Ticket getTicketByid(Integer id) {
 		
 		return repo.findById(id).orElse(null);
 	}
 
-	public void deleteTicketById(Long id) {
+	public void deleteTicketById(Integer id) {
 		repo.deleteById(id);
 		
 	}

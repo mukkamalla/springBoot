@@ -23,12 +23,12 @@ public class ApsrtcController {
 		
 	}
 	@GetMapping("/get-ticket/{id}")
-	public Ticket getTicketByid(@PathVariable Long id) {
+	public Ticket getTicketByid(@PathVariable Integer id) {
 		return apsrtcService.getTicketByid(id);
 		
 	}
 	@DeleteMapping("/delete-ticket/{id}")
-	public void deleteTicketById(@PathVariable Long id) {
+	public void deleteTicketById(@PathVariable Integer id) {
 		apsrtcService.deleteTicketById(id);
 	}
 
